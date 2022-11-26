@@ -1,0 +1,28 @@
+.zawadi{
+	width:20%;
+	margin:15px;
+	box-sizing:border-box;
+	float:left;
+	text-align:center;
+	border-radius:20px;
+	cursor:pointer;
+	padding-top:10px;
+}
+img{
+	width:200px;
+	height:200px;
+	text-align: center;
+	margin:0 auto;
+	display:block;
+}
+@media(max-width:1000px){
+	.zawadi{
+		width: 45%;
+	}
+}
+
+@media(max-width:750px){
+	.zawadi{
+		width: 100%;
+	}
+}
